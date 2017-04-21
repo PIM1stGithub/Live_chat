@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Live_Chat_Master.master.cs" Inherits="Live_Chat_Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+      
+    </asp:ContentPlaceHolder>
+    <link href="Live_chat_Style/login.css" rel="stylesheet" />
+    <link href="Live_chat_Style/Master_home_styel.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div class="div_home">
+            
+            <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+            <div class="title">
+
+                Live chatting
+            </div>
+            
+        </div>
+        <div class="div_home2">
+            <a href="Live_Chat_Design.aspx"><label id="lbl_Logout">Logout</label></a>
+          <a href="Live_Chat_Design.aspx"><label id="lbl_Product">Product</label></a>
+<a href="Live_chat_Registration.aspx"><label id="lbl_registar">Registar</label></a>
+        
+ <a href="Live_Chat_Design.aspx"><label id="lbl_home">Home</label></a>
+           
+        </div>
+        <div class="div_home3">
+            <div class="home3_txt"> <label> In this site you can chat with your customers or friends</label></div>
+            <div class="home3_image1">
+                image
+            </div>
+            home3
+        </div>
+     
+         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder> 
+     
+          
+       
+       
+    
+    </form>
+</body>
+</html>

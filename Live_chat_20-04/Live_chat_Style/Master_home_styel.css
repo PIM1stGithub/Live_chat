@@ -1,0 +1,84 @@
+﻿.div_home {
+    /*background-image: url(../images/Head1.jpg);*/
+    background-color:#2985C2;
+    padding: 3em;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-size: 230% 150%;
+}
+.div_home2 {
+        background-image: url(../images/head2.jpg);
+    padding: 2em;
+    background-repeat: no-repeat;
+    
+    background-position: top;
+    background-size: 102% 170%;
+}
+.div_home3 {
+    
+    background-color: #66ccff;
+    float: left;
+    width: 313px;
+    height: 600px;
+    background-size: 100% 100%;
+}
+.div_hom4 {
+
+background-color:aquamarine;
+height:600px;
+
+}
+.div_home5 {
+background-color:palevioletred;
+padding:8em;
+
+}
+.title {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+       background-color: white;
+    margin-top: -39px;
+    text-align: center;
+    font-size: 60px;
+    font-family:"Segoe UI",Arial,sans-serif;
+}
+.home3_image1 {
+    background-image: url('../images/live_chat.jpg');
+    padding:85px;
+}
+.home3_txt {
+
+    padding: 72px;
+    font-size: 28px;
+    color: black;
+    font-family: "Segoe UI",Arial,sans-serif;
+
+}
+#lbl_home {
+    float:right;
+padding-right:50px;
+font-size:20px;
+font-family: sans-serif;
+color:black;
+}
+#lbl_registar {
+    float:right;
+    padding-right:50px;
+    font-size:20px;
+    font-family: sans-serif;
+    color:black;
+}
+#lbl_Logout {
+float:right;
+padding-right:50px;
+font-size:20px;
+font-family: sans-serif;
+color:black;
+}
+#lbl_Product {
+    float:right;
+    padding-right:50px;
+    font-size:20px;
+    font-family: sans-serif;
+    color:black;
+}
+
